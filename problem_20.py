@@ -1,5 +1,6 @@
 #Task 2:Process Multiple Orders(for loop)
 order_list=[1200,250,800,1750,3000]
+tax=5
 total_revenue=0
 for i in order_list:
     print(f"for amount : {i}")
