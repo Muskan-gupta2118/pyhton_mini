@@ -1,6 +1,6 @@
-#adding matrix
+#adding matrix and vector
 import numpy as np
-matrix = np.array([[1, 2, 3],
+matrix = np.array([[1, 2, 9],
                    [4, 5, 6]])
 
 vector = np.array([10, 20, 30])
