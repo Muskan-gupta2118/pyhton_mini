@@ -1,7 +1,7 @@
 #adding matrix and vector
 import numpy as np
 matrix = np.array([[1, 2, 9],
-                   [4, 5, 6]])
+                   [4, 5, 7]])
 
 vector = np.array([10, 20, 30])
 
