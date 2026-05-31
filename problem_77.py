@@ -1,11 +1,11 @@
 #method overriding
 class A:
     def show(self):
-        print("A")
+        print("P")
 
 class B(A):
     def show(self):
-        print("B")
+        print("Q")
 
 obj = B()
 obj.show()
