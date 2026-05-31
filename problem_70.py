@@ -10,7 +10,7 @@ class Account:
         if amt <= self.balance:
             self.balance -= amt
         else:
-            print("Not enough balance")
+            print("Not enough balance..")
 
 
 a = Account(1000)
