@@ -1,7 +1,7 @@
 #find index of row having maximum sum
 import numpy as np
 arr = np.array([[1, 2, 3],
-                [12, 2, 1],
+                [1, 2, 1],
                 [5, 5, 6]])
 
 row_sum = arr.sum(axis=1)
