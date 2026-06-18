@@ -1,7 +1,7 @@
 #find the duplicate number in the array
 import numpy as np
 
-arr = np.array([1, 2, 3, 2, 4, 4, 1, 5])
+arr = np.array([1, 2, 3, 2, 4, 5, 1, 5])
 
 unique, counts = np.unique(arr, return_counts=True)
 duplicates = unique[counts > 1]
