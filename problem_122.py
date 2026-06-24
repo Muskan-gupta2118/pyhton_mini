@@ -5,7 +5,7 @@ import numpy as np
 
 students = pd.DataFrame({
     "ID":[1,2,3],
-    "Name":["A","B","C"]
+    "Name":["A ","B","C"]
 })
 
 marks = pd.DataFrame({
