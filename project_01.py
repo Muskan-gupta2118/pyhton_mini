@@ -4,7 +4,7 @@ program capabale of playing this game with the user  '''
 import random
 '''
 1 for snake
--1 for water
+-1 for  water
 0 for gun
 '''
 n=int(input("Enter a number:"))
