@@ -2,7 +2,7 @@
 import pandas as pd
 
 df = pd.DataFrame({
-    "Name":["A ","B","C","D"],
+    "Name":["A","B","C","D"],
     "Salary":[40000,50000,60000,70000]
 })
 
