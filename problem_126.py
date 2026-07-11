@@ -15,4 +15,4 @@ def move_zero(arr):
 
     return result
 
-print(move_zero([1,0,3,0,5,0]))
+print(move_zero([1,0,3,0,5,0,7]))
