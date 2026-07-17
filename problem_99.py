@@ -1,4 +1,4 @@
-#Method overridinh
+#Method overriding
 class Animal:
     def sound(self):
         print("Animal makes sound")
@@ -11,7 +11,7 @@ class Dog(Animal):
 
 class Cat(Animal):
     def sound(self):
-        print("Cat meows")
+        print("Cat meowss")
 
 
 d = Dog()
