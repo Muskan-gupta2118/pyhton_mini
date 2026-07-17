@@ -10,6 +10,6 @@ class BankAccount:
         return self.__balance
 
 
-acc = BankAccount(1000)
+acc = BankAccount(10000)
 acc.deposit(500)
 print(acc.get_balance())   # 1500
