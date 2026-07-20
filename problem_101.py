@@ -11,7 +11,7 @@ class Mother:
 
 class Child(Father, Mother):
     def show(self):
-        print("Child inherits both")
+        print("Children inherits both")
 
 
 c = Child()
