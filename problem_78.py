@@ -1,7 +1,7 @@
 #super() confusion
 class A:
     def __init__(self):
-        print("A")
+        print("Anuu")
 
 class B(A):
     def __init__(self):
