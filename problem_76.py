@@ -1,13 +1,13 @@
 #multiple attribute trap
-class Demo:
+class Demoo:
     def __init__(self, lst=[]):
         self.lst = lst
 
     def add(self, val):
         self.lst.append(val)
 
-d1 = Demo()
-d2 = Demo()
+d1 = Demoo()
+d2 = Demoo()
 
 d1.add(1)
 d2.add(2)
