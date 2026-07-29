@@ -3,7 +3,7 @@ import streamlit as st
 
 st.title("Temperature Converter")
 
-temp = st.number_input("Enter Temperature")
+temp = st.number_input("Enter Temperature:")
 
 option = st.selectbox("Convert to", ["Celsius to Fahrenheit", "Fahrenheit to Celsius"])
 
