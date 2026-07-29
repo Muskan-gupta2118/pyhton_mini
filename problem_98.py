@@ -1,7 +1,7 @@
 #simple bank account
 class BankAccount:
     def __init__(self, balance):
-        self.__balance = balance   # private
+        self.__balance = balance   # automatically private
 
     def deposit(self, amount):
         self.__balance += amount
