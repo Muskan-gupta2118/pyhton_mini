@@ -7,4 +7,4 @@ def duplicate_emails(person):
             subset=["email"],
             keep=False
         )
-    ][["email"]].drop_duplicates()
+    ][["email :"]].drop_duplicates()
