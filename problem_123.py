@@ -8,6 +8,6 @@ df = pd.DataFrame({
 
 avg = df["Salary"].mean()
 
-result = df[df["Salary"] > avg]
+result = df[df["Salary :"] > avg]
 
 print(result)
