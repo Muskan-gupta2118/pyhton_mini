@@ -6,6 +6,6 @@ def findCustomers(customers, orders):
         ~customers["id"].isin(orders["customerId"])
     ]
 
-    return result[["name"]].rename(
+    return result[["name :"]].rename(
         columns={"name":"Customers"}
     )
