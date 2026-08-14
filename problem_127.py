@@ -8,4 +8,4 @@ def linear_search(arr,target):
 
     return -1
 
-print(linear_search([2,7,6,8],6))
+print(linear_search([2,7,6,8,5],6))
