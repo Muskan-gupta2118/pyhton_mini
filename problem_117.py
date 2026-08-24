@@ -1,7 +1,7 @@
 # inverse matrix
 import numpy as np
 
-arr = np.array([1, 2, 3, 4, 6])
+arr = np.array([1, 2, 3, 4, 6, 7])
 
 reversed_arr = arr[::-1]
 
