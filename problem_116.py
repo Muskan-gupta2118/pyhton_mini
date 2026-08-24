@@ -1,6 +1,6 @@
 #flatten and ravel
 import numpy as np
-arr = np.array([[1, 2], [3, 5]])
+arr = np.array([[1, 2,3], [3, 5,6]])
 
 flat = arr.flatten()
 rav = arr.ravel()
