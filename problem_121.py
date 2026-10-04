@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 
 df = pd.DataFrame({
-    "Marks":[80,70,90,100,60]
+    "Marks":[80,70,90,10,60]
 })
 
 print(df)
