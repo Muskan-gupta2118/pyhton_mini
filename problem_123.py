@@ -3,7 +3,7 @@ import pandas as pd
 
 df = pd.DataFrame({
     "Name":["A","B","C","D"],
-    "Salary":[40000,50000,60000,7000]
+    "Salary":[40000,50000,60000,70000]
 })
 
 avg = df["Salary"].mean()
