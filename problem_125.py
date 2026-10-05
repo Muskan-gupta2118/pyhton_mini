@@ -4,7 +4,7 @@ import pandas as pd
 def duplicate_emails(person):
     return person[
         person.duplicated(
-            subset=["email"],
+            subset=["emails"],
             keep=False
         )
     ][["email :"]].drop_duplicates()
