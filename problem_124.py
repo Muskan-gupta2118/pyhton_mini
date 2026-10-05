@@ -7,5 +7,5 @@ def findCustomers(customers, orders):
     ]
 
     return result[["name :"]].rename(
-        columns={"name":"Customers"}
+        columns={"name":"Customer"}
     )
