@@ -1,5 +1,5 @@
 1.
-i=int(input("Enter a integer"))
+i=int(input("Enter  a integer"))
 print(f"user entered the amount : {i}")
 2.
 if(i>=2000):
