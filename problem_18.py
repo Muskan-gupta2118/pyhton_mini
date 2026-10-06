@@ -8,7 +8,7 @@ price_dict={
     'color':30,
     'sheet':5
 }
-product_list=["pen","A4 paper","box","color","sheet","bottle"]
+product_list=["pen","A4paper","box","color","sheet","bottle"]
 categories=["stationary","stationary","stationary","stationary","stationary","stationary"]
 catalog=[]
 for i in range(len(product_list)):
