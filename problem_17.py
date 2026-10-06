@@ -1,7 +1,7 @@
 #Task3-product pricing(Dictionries)
 1.
 price_dict={
-    'spiral':80,
+    'spiral':70,
     'pen':10,
     'A4 paper':20,
     'box':50,
