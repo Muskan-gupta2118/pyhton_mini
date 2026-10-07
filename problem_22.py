@@ -12,4 +12,4 @@ for i in daily_list:
     Total_sale=Total_sale+i
     print(Total_sale)
     day_count=day_count+1
-print("Total sale overall :",Total_sale)
+print("Total sale overall:",Total_sale)
