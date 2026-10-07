@@ -1,7 +1,7 @@
 #Task 2:Recursive function :Factorial Utility
 def factorial(n):
     if(n<0):
-        print("You enetred a negative number")
+        print("You enetred a negative number ")
     else:    
         if(n==1 or n==0):
             return 1
