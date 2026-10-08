@@ -11,7 +11,7 @@ for i in order_list:
     elif(1000<=i):
         remain_amount2=i-(i*7/100)
     elif(i<1000):
-        print("There is no discount in that price ")
+        print("There is no discount in that  price ")
     else:
         print("You enetr a invalid number!EXIT")    
     print(remain_amount2)
