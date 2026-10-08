@@ -11,7 +11,7 @@ elif(1000<=i):
 elif(i<1000):
     print("There is no discount in that price ")
 else:
-    print("You enetr a invalid number! EXIT")    
+    print("You enetr a invalid number!EXIT")    
 print(remain_amount)
 3.#optional
 tax=5
