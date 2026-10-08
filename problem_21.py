@@ -7,7 +7,7 @@ while True:
     q--Quit'''
     choice=input("Enter the character : ")
     if(choice=='1'):
-        amount=input("Enter the amount : ")
+        amount=input("Enter the amount :")
         order_list.append(amount)
     elif(choice=='2'):
         print("orders :",order_list)    
