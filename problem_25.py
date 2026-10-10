@@ -4,5 +4,5 @@ print(gst(100))
 
 
 #with discount
-gst=lambda price,discount:price + (0.18*price) - (price*discount/100)
+gst=lambda price,discount:price + (0.18*price) -(price*discount/100)
 print(gst(100,10))
