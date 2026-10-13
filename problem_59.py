@@ -17,5 +17,5 @@ class Rectangle(Shape):
         return self.l *self.w
 
 
-r = Rectangle(5, 3)
+r = Rectangle(5,3)
 print(r.area())
