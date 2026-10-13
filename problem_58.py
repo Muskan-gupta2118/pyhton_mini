@@ -17,7 +17,7 @@ class Manager(Employee):
         return self.salary + self.bonus  # overriding
 
 
-e = Employee("Amit ", 30000)
+e = Employee("Amit", 30000)
 m = Manager("Neha ", 50000, 10000)
 
 print(e.get_salary())
