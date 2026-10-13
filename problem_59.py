@@ -14,7 +14,7 @@ class Rectangle(Shape):
         self.w = w
 
     def area(self):
-        return self.l * self.w
+        return self.l *self.w
 
 
 r = Rectangle(5, 3)
