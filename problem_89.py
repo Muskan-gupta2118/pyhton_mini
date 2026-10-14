@@ -5,7 +5,7 @@ class Vehicle:
 
 class Car(Vehicle):
     def drive(self):
-        print("Car is driving")
+        print("Car is  driving")
 
 
 c = Car()
