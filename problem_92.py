@@ -6,7 +6,7 @@ st.title("Calculator")
 num1 = st.number_input("Enter first number")
 num2 = st.number_input("Enter second number")
 
-operation = st.selectbox("Choose operation", ["Add", "Subtract", "Multiply", "Divide"])
+operation = st.selectbox("Choose  operation", ["Add", "Subtract", "Multiply", "Divide"])
 
 if st.button("Calculate"):
     if operation == "Add":
