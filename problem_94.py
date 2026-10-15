@@ -10,7 +10,7 @@ selected_month = st.selectbox("Select a month", months)
 
 # 3. Static dictionary of sales
 sales = {
-    "January": 1200,
+    "January ": 1200,
     "February": 1500,
     "March": 900,
     "April": 2000
