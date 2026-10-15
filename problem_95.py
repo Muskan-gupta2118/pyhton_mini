@@ -11,7 +11,7 @@ marks = {
     "John": 78
 }
 
-selected_student = st.selectbox("Select Student", students)
+selected_student = st.selectbox("Select  Student", students)
 
 st.metric("Marks", marks[selected_student])
 
