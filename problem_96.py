@@ -12,4 +12,4 @@ if option == "Celsius to Fahrenheit":
 else:
     result = (temp - 32) * 5/9
 
-st.write("Converted Temperature:", result)
+st.write("Converted Temperature :", result)
