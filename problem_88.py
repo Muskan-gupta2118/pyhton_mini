@@ -6,7 +6,7 @@ class Product:
         self.category = category
 
     def __str__(self):
-        return f"{self.name} | ₹{self.price} | {self.category}"
+        return f"{self.name}| ₹{self.price} | {self.category}"
 
     def __add__(self, other):
         return self.price + other.price
