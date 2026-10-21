@@ -6,5 +6,5 @@ class Student:
     def __str__(self):
         return self.name
 
-s = Student("Aman")
+s = Student("Aman ")
 print(s)
