@@ -5,7 +5,7 @@ st.title("Simple Sales Dashboard")
 st.write("This dashboard shows monthly sales data.")
 
 # 2. Selectbox with months
-months = ["January", " February", "March", "April"]
+months = ["January"," February", "March", "April"]
 selected_month = st.selectbox("Select a month", months)
 
 # 3. Static dictionary of sales
