@@ -9,4 +9,4 @@ class Box:
 b1 = Box(10)
 b2 = Box(20)
 
-print(b1 > b2)
+print(b1 >b2)
