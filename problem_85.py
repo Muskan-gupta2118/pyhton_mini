@@ -9,7 +9,7 @@ class product:
 
 class laptop(product):
     def get_info(self):
-        print("Laptop : ",self.name,self.price)
+        print("Laptop: ",self.name,self.price)
 
 class Mobile(product):
     def get_info(self):
