@@ -12,7 +12,7 @@ class Payment(ABC):
 # Subclass 1
 class CreditCardPayment(Payment):
     def process_payment(self, amount):
-        print(f"Paid {amount} using Credit Card")
+        print(f" Paid {amount} using Credit Card")
 
 
 # Subclass 2
