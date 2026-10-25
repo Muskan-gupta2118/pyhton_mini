@@ -15,7 +15,7 @@ class Product:
 
 
 # Creating objects
-p1 = Product("Laptop", 50000, "Electronics")
+p1 = Product("Laptop ", 50000, "Electronics")
 p2 = Product("Mobile", 20000, "Electronics")
 
 # Testing __str__
