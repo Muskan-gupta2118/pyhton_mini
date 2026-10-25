@@ -17,8 +17,8 @@ class Mobile(product):
 
 
 # Creating objects
-p1 = laptop("HP", 60000)
-p2 = Mobile("Samsung", 30000)
+p1 = laptop("HP ", 60000)
+p2 = Mobile("Samsung ", 30000)
 
 # Polymorphism using loop
 products = [p1, p2]
