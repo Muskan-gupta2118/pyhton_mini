@@ -3,7 +3,7 @@ import streamlit as st
 
 st.title("Student Marks Dashboard")
 
-students = ["Aman","Riya", "John"]
+students = ["Aman ","Riya", "John"]
 
 marks = {
     "Aman": 85,
