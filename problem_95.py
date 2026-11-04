@@ -13,6 +13,6 @@ marks = {
 
 selected_student = st.selectbox("Select  Student", students)
 
-st.metric("Marks ", marks[selected_student])
+st.metric("Marks", marks[selected_student])
 
 st.bar_chart(list(marks.values()))
