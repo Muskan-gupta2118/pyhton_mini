@@ -11,6 +11,6 @@ task = st.text_input("Enter a task :")
 if st.button("Add Task"):
     st.session_state.tasks.append(task)
 
-st.write("Your Tasks:")
+st.write("Your  Tasks:")
 for t in st.session_state.tasks:
     st.write("- ", t)
