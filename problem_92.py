@@ -11,7 +11,7 @@ operation = st.selectbox("Choose  operation", ["Add", "Subtract", "Multiply", "D
 if st.button("Calculate"):
     if operation == "Add":
         result = num1 + num2
-    elif operation == "Subtract":
+    elif operation == "Subtract ":
         result = num1 - num2
     elif operation == "Multiply":
         result = num1 * num2
