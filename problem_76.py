@@ -3,7 +3,7 @@ class Demoo:
     def __init__(self, lst=[]):
         self.lst = lst
 
-    def add(self, val):
+    def  add(self, val):
         self.lst.append(val)
 
 d1 = Demoo()
