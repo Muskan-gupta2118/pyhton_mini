@@ -7,7 +7,7 @@ class Product:
 
     # 1. __str__ method
     def __str__(self):
-        return f"Product(Name: {self.name}, Price: {self.price}, Category: {self.category})"
+        return f"Product(Name : {self.name}, Price: {self.price}, Category: {self.category})"
 
     # 2. Operator Overloading (+)
     def __add__(self, other):
@@ -15,8 +15,8 @@ class Product:
 
 
 # Creating objects
-p1 = Product("Laptop", 50000, "Electronics")
-p2 = Product("Mobile", 20000, "Electronics")
+p1 = Product("Laptop ", 50000, "Electronics")
+p2 = Product("Mobile ", 20000, "Electronics")
 
 # Testing __str__
 print(p1)
