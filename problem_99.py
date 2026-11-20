@@ -1,7 +1,7 @@
 #Method overriding
 class Animal:
     def sound(self):
-        print("Animal makes sound")
+        print("Animal  makes sound")
 
 
 class Dog(Animal):
