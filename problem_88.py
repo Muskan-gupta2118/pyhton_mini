@@ -1,4 +1,4 @@
-#mini.project:Simple Inventory system
+#mini.project : Simple Inventory system
 class Product:
     def __init__(self, name, price, category):
         self.name = name
