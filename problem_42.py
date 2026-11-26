@@ -5,6 +5,6 @@ def check_age(age):
         if (age>120 or age<0):
             raise ValueError 
     except ValueError:
-        print("Invalid age")
+        print("Invalid  age")
 
 check_age(age)
