@@ -4,7 +4,7 @@ total=0
 for i in prices:
     try:
         if not isinstance(i,(int,float)):
-            raise TypeError("Not a number")
+            raise TypeError("Not a  number")
         elif i < 0:
             raise ValueError("smaller than 0")
         else:
