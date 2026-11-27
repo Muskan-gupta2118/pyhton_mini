@@ -16,7 +16,7 @@ class captain_america:
         self.warranty_year = warranty_year
 
     def get_info(self):
-        print(f"Product: {self.name}, Price: {self.price}, Category: {self.category}, Warranty: {self.warranty_year}")
+        print(f"Product: {self.name},Price : {self.price}, Category: {self.category}, Warranty: {self.warranty_year}")
 
 
 class hulk(Ironman, captain_america):
