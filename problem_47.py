@@ -10,7 +10,7 @@ class ElectronicProduct(product):
         super().__init__(name,price,category)
         self.warranty_year=warranty_year
     def get_info(self):
-        print(f"the name of the product is :{self.name} at price of {self.price} from {self.category}with warranty till {self.warranty_year}")
+        print(f"the name of the product  is :{self.name} at price of {self.price} from {self.category}with warranty till {self.warranty_year}")
 Apple=product("Apple",120,"Fruit")
 Apple.get_info()
 laptop=ElectronicProduct("Apple",200000,"Laptop",2045)  
