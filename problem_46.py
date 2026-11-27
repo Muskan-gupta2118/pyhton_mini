@@ -10,7 +10,7 @@ class product:
     #Setter method
     def set_price(self,new_price):
         self.__price=new_price
-        print(f"New price of product is :{self.__price}")    
+        print(f"New price of product  is :{self.__price}")    
 Apple=product("Apple",120,"Fruit")
 Apple.get_price() 
 Apple.set_price(210)       
